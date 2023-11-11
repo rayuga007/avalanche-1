@@ -31,7 +31,7 @@ This is a simple Ethereum smart contract in Solidity for a lottery game. The con
 
 ### Usage
 
-1. Deploy the smart contract on the Ethereum blockchain.
+1. Deploy the smart contract on thelocal Environment in Remix
 2. Participants can join the lottery using the `joinLottery` function.
 3. They can check their join status with the `checkJoinStatus` function.
 4. The lottery can be closed using the `closeLottery` function when there are at least 5 participants.
