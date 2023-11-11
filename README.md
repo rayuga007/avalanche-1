@@ -20,14 +20,14 @@ This is a simple Ethereum smart contract in Solidity for a lottery game. The con
 
 ### Error Handling
 
-- **Revert Statement:**
-  - The `revert` statement is employed in situations where an error condition occurs, such as insufficient participants to close the lottery. It provides a custom error message to communicate the reason for the transaction failure.
-
 - **Require Statement:**
   - The `require` statement is used in the `joinLottery` function to ensure that a participant has not already joined. If the condition specified in `require` is not met, the transaction is reverted with a custom error message.
 
 - **Assert Statement:**
   - The `assert` statement is employed in the `checkJoinStatus` function to ensure that the queried player has actually joined the lottery. If the condition specified in `assert` is false, it will trigger an exception, indicating a logical error in the contract.
+
+- **Revert Statement:**
+  - The `revert` statement is employed in situations where an error condition occurs, such as insufficient participants to close the lottery. It provides a custom error message to communicate the reason for the transaction failure.
 
 ### Usage
 
